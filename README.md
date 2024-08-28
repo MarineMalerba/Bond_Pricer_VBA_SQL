@@ -7,7 +7,7 @@ The **cMod_Bond** module provides a comprehensive set of tools for calculating a
 ### Features
 + Bond Properties:
 
-  + pCompany: Represents the company or issuer of the bond.
+  + 'pCompany': Represents the company or issuer of the bond.
   + pCoupon_Rate_Type: Indicates whether the bond has a "Fixed" or "Variable" coupon rate.
   + pCoupon_Rate_Or_Margin: The coupon rate for fixed-rate bonds or the margin over the LIBOR rate for variable-rate bonds.
   + pCoupon_Frequency: The number of coupon payments made annually.
