@@ -77,35 +77,15 @@ Important Considerations:
 ### Overview
 This VBA code is designed to manage and manipulate data within an Access database.
 ### Features
-1. sub_Database_Preparation
-This subroutine is used to modify the schema of the CDX_IG_Prices table in the Access database. It performs the following actions:
++ ``sub_Database_Preparation``: This subroutine is used to modify the schema of the CDX_IG_Prices table in the Access database.
+  + Establishes a Connection: Connects to the Access database using the ADODB library.
+  + Renames Columns.
 
-Establishes a Connection: Connects to the Access database using the ADODB library.
-Modifies Columns:
-Adds new columns with updated names (e.g., changing 6M to 0,5).
-Copies data from the old columns to the new columns.
-Drops the old columns.
++ ``sub_Insert_Results``: This subroutine inserts new data into a table named Results.
+  + Establishes a Connection: Connects to the Access database using the ADODB library.
+  + Creates Table: Checks if the Results table exists, and if not, creates it.
+  + Inserts Data: Adds a new row of data into the Results table based on the values provided in specific Excel ranges.
+### Error Handling
++ ``sub_Database_Preparation``: Includes basic error handling for SQL execution errors but does not check for specific conditions.
++ ``sub_Insert_Results``: Includes error handling for the table creation step to ignore errors if the table already exists.
 
-2. sub_Insert_Results
-This subroutine inserts new data into a table named Results. It includes the following steps:
-
-Establishes a Connection: Connects to the Access database using the ADODB library.
-Creates Table: Checks if the Results table exists, and if not, creates it with the following columns:
-Name (TEXT)
-Coupon_Rate_Type (TEXT)
-Coupon_Rate_Or_Margin (DOUBLE)
-Coupon_Frequency (TEXT)
-Maturity (DOUBLE)
-Price (DOUBLE)
-Pricing_Date (DATE)
-Inserts Data: Adds a new row of data into the Results table based on the values provided in specific Excel ranges.
-Connection String
-Both subroutines use the following connection string to link Excel with the Access database:
-
-vba
-Copier le code
-Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\zouli\OneDrive\Documents\Data_Projet.accdb
-Error Handling
-sub_Database_Preparation: Includes basic error handling for SQL execution errors but does not check for specific conditions.
-sub_Insert_Results: Includes error handling for the table creation step to ignore errors if the table already exists.
-Usage
