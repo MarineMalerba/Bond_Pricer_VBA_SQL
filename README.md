@@ -1,5 +1,5 @@
 # Bond_Pricer_VBA_SQL
-*Keywords*: VBA, SQL, Bond Pricing, Excel, Financial Analysis, Access Database, Risk-Free Curve, LIBOR Rates, Duration Calculation, Bond Cash Flows, Data Management, Object-Oriented Programming (OOP), ADODB, Linear Interpolation, Error Handling, Dynamic Interface, Scripting Runtime, Database Connection, Curve Interpolation 
+*Keywords: VBA, SQL, Bond Pricing, Excel, Financial Analysis, Access Database, Risk-Free Curve, LIBOR Rates, Duration Calculation, Bond Cash Flows, Data Management, Object-Oriented Programming (OOP), ADODB, Linear Interpolation, Error Handling, Dynamic Interface, Scripting Runtime, Database Connection, Curve Interpolation*
 
 This project provides a comprehensive suite of VBA modules within Excel for bond pricing and analysis, incorporating external rate curves and LIBOR rates for accurate calculations, while also managing and manipulating data in an Access database to facilitate dynamic financial analysis and reporting.
 
