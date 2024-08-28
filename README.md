@@ -1,7 +1,7 @@
 # Bond_Pricer_VBA_SQL
 
 ## cMod_Bond ##
-# Overview #
+### Overview ###
 The cMod_Bond module provides a comprehensive set of tools for calculating and analyzing bond prices, durations, and cash flow schedules within an Excel environment using VBA. The module is designed to handle both fixed and variable coupon bonds, leveraging external rate curves (risk-free and spread curves) and LIBOR rates for accurate financial computations.
 
 Features
