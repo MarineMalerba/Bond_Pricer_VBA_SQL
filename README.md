@@ -5,7 +5,7 @@
 The **cMod_Bond** module provides a comprehensive set of tools for calculating and analyzing bond prices, durations, and cash flow schedules within an Excel environment using VBA. The module is designed to handle both fixed and variable coupon bonds, leveraging external rate curves (risk-free and spread curves) and LIBOR rates for accurate financial computations.
 
 ### Features
-Bond Properties:
++ Bond Properties:
 
 pCompany: Represents the company or issuer of the bond.
 pCoupon_Rate_Type: Indicates whether the bond has a "Fixed" or "Variable" coupon rate.
