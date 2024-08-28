@@ -75,7 +75,7 @@ Important Considerations:
 ## Mod_Database
 
 ### Overview
-This VBA code is designed to manage and manipulate data within an Access database.
+This module is designed to manage and manipulate data within an Access database.
 ### Features
 + ``sub_Database_Preparation``: This subroutine is used to modify the schema of the CDX_IG_Prices table in the Access database.
   + Establishes a Connection: Connects to the Access database using the ADODB library.
